@@ -115,6 +115,27 @@
 		  color: white !important;
 		  border-radius: 5px;
 	  }
+	  .banner {
+		  position: relative;
+		  width: 100%;
+	  }
+	  .banner img {
+		  width: 100%;
+		  height: 200px;
+		  object-fit: cover;
+	  }
+	  .banner-text {
+		  position: absolute;
+		  top: 30%;
+		  left: 10%;
+		  color: white;
+	  }
+	  .banner button {
+		  background: #7C3AED;
+		  border: none;
+		  padding: 10px 15px;
+		  color: white;
+	  }
   </style>
 </head>
 <body>
@@ -143,6 +164,14 @@
 	  <a href = "#"> Giỏ hàng </a>
   </nav>
 
+  <div class="banner">
+	  <img src="bg.jpg" alt="banner">
+	  <div class="banner-text">
+		  <h2>Bộ sưu tập mới</h2>
+		  <p>Giảm đến 50%</p>
+		  <button>Mua ngay</button>
+	  </div>
+  </div>
   <main style="flex: 1;">
     <div class="container">
 		
